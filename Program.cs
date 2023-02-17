@@ -12,6 +12,13 @@ namespace WinFormsApp1
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new LoginForm());
+
+            string name;
+            string email;
+            string password;
+            bool acceprConditions;
+            bool createAccount;
+            bool login;
         }
     }
 }
