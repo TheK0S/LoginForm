@@ -160,6 +160,7 @@
             this.CreateAccount.TabIndex = 8;
             this.CreateAccount.Text = "Create Free Account";
             this.CreateAccount.UseVisualStyleBackColor = false;
+            this.CreateAccount.Click += new System.EventHandler(this.CreateAccount_Click);
             // 
             // HeaderLabel
             // 
@@ -182,6 +183,7 @@
             this.FooterLabel.Size = new System.Drawing.Size(186, 21);
             this.FooterLabel.TabIndex = 10;
             this.FooterLabel.Text = "Already have an account?";
+            this.FooterLabel.Click += new System.EventHandler(this.FooterLabel_Click);
             // 
             // LoginLink
             // 
@@ -193,6 +195,7 @@
             this.LoginLink.TabIndex = 11;
             this.LoginLink.TabStop = true;
             this.LoginLink.Text = "Log in here";
+            this.LoginLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LoginLink_LinkClicked);
             // 
             // LoginForm
             // 

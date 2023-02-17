@@ -54,6 +54,21 @@ namespace WinFormsApp1
         {
 
         }
+
+        private void CreateAccount_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LoginLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void FooterLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
