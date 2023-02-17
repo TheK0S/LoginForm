@@ -15,16 +15,46 @@ namespace WinFormsApp1
         public LoginForm()
         {
             InitializeComponent();
-        }
+            this.NameField.AutoSize = false;
+            this.NameField.Size = new Size(this.NameField.Width, 35);
 
-        private void button1_Click(object sender, EventArgs e)
+            this.EmailField.AutoSize = false;
+            this.EmailField.Size = new Size(this.NameField.Width, 35);
+
+            this.PasswordField.AutoSize = false;       
+            this.PasswordField.Size = new Size(this.NameField.Width, 35);
+        }        
+
+        private void NameLabel_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void PasswordField_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void NameField_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void EmailField_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AcceptConditions_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void linkConditions_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
 
         }
     }
 }
+
+
